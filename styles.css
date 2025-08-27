@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.full-page{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+}
+
+.page-left-border{
+    width: 400px;
+    background-image: url("img/background.jpg");
+
+}
+
+.logo{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color:rgba(0,0,0,0.5);
+    margin-top: 200px;
+    justify-content: center;
+    
+    
+}
+
+.logo h1{
+    color: white;
+    font-family: "norsebold";
+    
+}
