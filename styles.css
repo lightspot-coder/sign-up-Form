@@ -10,8 +10,8 @@
 .full-page{
     display: flex;
     width: 1000px;
-    height: 1000px;
-    background-color: aqua;
+    height: 800px;
+    background-color: rgb(233, 238, 238);
 }
 
 .page-left-border{
@@ -36,3 +36,69 @@
     font-family: "norsebold";
     
 }
+
+.first-section {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.first-section p{
+    font-weight:bold;
+    font-size: large;
+}
+
+.second-section{
+    margin-top: 30px;
+    height: 300px;
+    background-color: white;
+}
+
+.second-section p{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.second-section form{
+    
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.second-section .left-inputs{
+    
+}
+
+.label {
+    display: block;
+    width: 50%;
+    padding: 5px;
+}
+input{
+    display: block;
+    width: 50%;
+}
+
+
+
+.third-section{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+}
+
+
+
+
+
+
